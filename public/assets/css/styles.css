@@ -1,0 +1,332 @@
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../fonts/OpenSans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/OpenSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/OpenSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/OpenSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/OpenSans-Regular.svg') format('svg'); /* Legacy iOS */
+   font-family: 'OpenSans-Light';
+   src: url('../fonts/OpenSans-Light.eot'); /* IE9 Compat Modes */
+   src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/OpenSans-Light.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/OpenSans-Light.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/OpenSans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/OpenSans-Light.svg') format('svg'); /* Legacy iOS */
+    font-family: 'OpenSans-Semibold';
+    src: url('../fonts/OpenSans-Semibold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/OpenSans-Semibold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/OpenSans-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/OpenSans-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/OpenSans-Semibold.svg') format('svg'); /* Legacy iOS */
+}
+
+.navbar {
+	background-color: #00b6b9;
+  border-bottom-style: none;
+}
+
+.navbar-brand {
+  padding: 10px;
+}
+
+.nav-pills > li {
+  padding: 10px;
+}
+
+.nav-pills > li > a {
+  color: #ffffff;
+  font-family: 'OpenSans-Regular', Fallback, sans-serif;
+}
+
+.nav-pills > li > a:hover {
+  background-color: #f2f2f2;
+  color: #00787a;
+}
+
+.nav-pills > li > a:focus {
+  color: #00787a;
+}
+
+.navbar-toggle {
+  background-color: #ffffff;
+	border-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #00787a;
+}
+
+/* Text styles */
+
+.page-title {
+  font-family: 'OpenSans-Light', Fallback, sans-serif;
+  color: #0b0b0b;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 40px auto;
+  font-family: 'OpenSans-Light', Fallback, sans-serif;
+  color: #0b0b0b;
+}
+
+h2 {
+  font-family: 'OpenSans-Light', Fallback, sans-serif;
+  color: #0b0b0b;
+  margin: 40px auto 20px auto;
+}
+
+h3 {
+  font-family: 'OpenSans-Light', Fallback, sans-serif;
+  color: #0b0b0b;
+  margin: 40px auto 20px auto;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'OpenSans-Light', Fallback, sans-serif;
+  color: #0b0b0b;
+  margin: 20px auto;
+}
+
+li {
+  font-size: 16px;
+  font-family: 'OpenSans-Light', Fallback, sans-serif;
+  color: #0b0b0b;
+  margin: auto;
+}
+
+.detail-text {
+  font-size: 16px;
+  font-family: 'OpenSans-Light', Fallback, sans-serif;
+  color: #0b0b0b;
+  margin: 10px auto;
+}
+
+.link {
+	color: #6EEB83;
+}
+
+.link:hover {
+	color: #0b0b0b;
+	text-decoration: underline;
+}
+
+.footer-social {
+  width: 200px;
+  background-color: #00787a;
+  display: inline-block;
+  margin: 5px 10px 20px 10px;
+}
+
+.footer-social:hover {
+  width: 200px;
+  background-color: #f2f2f2;
+  color: #00787a;
+  display: inline-block;
+  margin: 5px 10px 20px 10px;
+}
+
+.footer-social:focus {
+  width: 200px;
+  background-color: #ffffff;
+  color: #00787a;
+  display: inline-block;
+  margin: 5px 10px 20px 10px;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #0b0b0b;
+  margin: auto;
+  color: #0b0b0b;
+  font-family: 'OpenSans-Light', Fallback, sans-serif;
+  text-align: center;
+}
+
+.footer-emphasis {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 10px auto 20px auto;
+  color: #ffffff;
+  font-family: 'OpenSans-Light', Fallback, sans-serif;
+}
+
+/* end */
+
+/*Container page styles*/
+
+.centered {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.grey {
+  background-color: #f2f2f2;
+}
+
+.text-box {
+  text-align: center;
+  background-color: #00787a;
+  color: #ffffff;
+  padding: 40px 20px;
+  border-radius: 15px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page-bottom {
+  height: 80px;
+}
+
+.document {
+	margin: 50px;
+}
+
+/* end */
+
+/* Image styles */
+
+.main-app-image {
+  margin: 20px auto 20px auto;
+  max-height: 700px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.app-icon {
+  margin: 20px auto 20px auto;
+  max-height: 200px;
+  border-radius: 15px;
+  display: block;
+}
+
+.download-icon {
+  width: 200px;
+  height: auto;
+}
+
+.app-image {
+  margin: 20px auto 20px auto;
+  max-height: 540px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* end */
+
+/* Footer styles */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 160px;
+  background-color: #e4ff1a;
+  padding: 40px;
+  vertical-align:middle;
+  text-align: center;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 160px;
+}
+
+/* end */
+
+.input-group {
+	margin-left: 4%;
+}
+
+html {
+  padding-top: 60px;
+  position: relative;
+  min-height: 100%;
+}
+
+.form-container {
+  text-align: center;
+  font-family: 'OpenSans-Light', Fallback, sans-serif;
+}
+
+.input-group {
+  margin: auto;
+  text-align: center;
+}
+
+#password-reset-form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-control {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.input-group > .form-control {
+  float: none;
+}
+
+#new-password {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 18pt;
+  height: auto;
+}
+
+#confirm-password {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 18pt;
+  height: auto;
+}
+
+#submit-button {
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #00787a;
+  color: #ffffff;
+  font-family: 'OpenSans-Regular', Fallback, sans-serif;
+  border-style: solid;
+  border-color: #00787a;
+  border-width: 2px;
+  font-size: 20px;
+  height: 50px;
+}
+
+#submit-button:hover {
+  background-color: #f2f2f2;
+  color: #00787a;
+  border-color: #00787a;
+}
+
+#warning-label {
+	width: 100%;
+  color: #0b0b0b;
+  font-family: 'OpenSans-Regular', Fallback, sans-serif;
+  font-size: 16pt;
+  font-weight: normal;
+}
