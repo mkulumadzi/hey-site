@@ -1,4 +1,1 @@
 User-agent: *
-Disallow: /reset-password
-Disallow: /reset-password/success
-Disallow: /validate-email

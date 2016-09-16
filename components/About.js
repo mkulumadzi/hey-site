@@ -3,7 +3,7 @@ var React = require('react');
 var About = React.createClass({
 
   componentDidMount: function() {
-    document.title = "Slowpost";
+    document.title = "Hey!";
   },
 
   render() {
